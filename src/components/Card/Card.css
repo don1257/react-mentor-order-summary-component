@@ -48,3 +48,7 @@
     font-weight: 700;
     color: hsl(224, 23%, 55%);
 }
+
+.Card > .Container > .Cancel:hover {
+    cursor: pointer;
+}

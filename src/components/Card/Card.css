@@ -1,0 +1,50 @@
+.Card-Outer{
+    margin: 0;
+
+}
+
+.Card{
+    margin-top: 0;
+    width: 350px;
+    height: 565px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.Card > .illustration-hero {
+    width: 350px;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    border-color: hsl(225, 100%, 98%);
+}
+
+.Card > .Container{
+    width: 75%;
+    text-align: center;
+}
+
+.Card > .Container > .Title{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: hsl(223, 47%, 23%);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Card > .Container > .Summary{
+    font-family: 'Red Hat Display', sans-serif;
+    weight: 700;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.Card > .Container > .Cancel{
+    margin-top: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}

@@ -3,6 +3,7 @@ import './App.css';
 import Card from "./components/Card/Card";
 import patternBackgroundDesktop from "./images/pattern-background-desktop.svg";
 import patternBackgroundMobile from "./images/pattern-background-mobile.svg";
+import desktopDesign from './design/desktop-design.jpg'
 
 function App() {
     const [backgroundImage, setBackgroundImage] = useState('');
@@ -33,6 +34,7 @@ function App() {
             />
             <Card/>
         </div>
+
     );
 }
 

@@ -5,7 +5,7 @@ import patternBackgroundDesktop from "./images/pattern-background-desktop.svg";
 import patternBackgroundMobile from "./images/pattern-background-mobile.svg";
 
 function App() {
-    const [backgroundImage, setBackgroundImage] = useState(patternBackgroundMobile);
+    const [backgroundImage, setBackgroundImage] = useState('');
 
     const handleMediaQuery = () => {
         if (window.matchMedia("(max-width: 768px)").matches) {
@@ -16,6 +16,8 @@ function App() {
     };
 
     useEffect(() => {
+        handleMediaQuery(); // Set initial background image on load
+
         window.addEventListener('resize', handleMediaQuery);
         return () => {
             window.removeEventListener('resize', handleMediaQuery);

@@ -12,6 +12,21 @@
     border-radius: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .MusicPlan {
+        height: 80px;
+        width: 275px;
+    }
+}
+
+@media (min-width: 768px) {
+    .MusicPlan {
+        height: 95px;
+        width: 350px;
+    }
 }
 
 .MusicPlan > .Text-Container{
@@ -19,21 +34,19 @@
 }
 
 .MusicPlan > .Text-Container > .Title {
-    font-family: 'Red Hat Display', sans-serif;
+
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     font-size: 14px;
 }
 
 .MusicPlan > .Text-Container > .Price {
-    font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: hsl(224, 23%, 55%);
 }
 
 .MusicPlan > .Hyperlink {
-    font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 14px;
     margin-left: 24px;

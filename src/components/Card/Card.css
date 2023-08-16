@@ -14,11 +14,39 @@
     border-radius: 20px 20px 20px 20px;
 }
 
+@media (max-width: 767px) {
+    .Card{
+        width: 350px;
+        height: 565px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Card{
+        width: 450px;
+        height: 700px;
+    }
+}
+
 .Card > .illustration-hero {
     width: 350px;
     height: auto;
     border-radius: 20px 20px 0 0;
     border-color: hsl(225, 100%, 98%);
+}
+
+@media (max-width: 767px) {
+    .Card > .illustration-hero {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .Card > .illustration-hero {
+        width: 450px;
+        height: 220px;
+    }
 }
 
 .Card > .Container{

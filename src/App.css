@@ -2,14 +2,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
 }
 
-.PatternBackground {
-  position: absolute;
-  z-index: -1;
-  top:0;
-  left: 0;
-  width: 100vw;
+@media (max-width: 767px) {
+  .App {
+    background-image: url('./images/pattern-background-mobile.svg');
+  }
 }
+
+@media (min-width: 768px) {
+  .App {
+    background-image: url('./images/pattern-background-desktop.svg');
+  }
+}
+
+.App > .Container {
+  min-height: 100%;
+  width: 100%;
+}
+

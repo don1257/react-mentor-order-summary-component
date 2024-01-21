@@ -2,7 +2,7 @@ import './Payment.css'
 
 const Payment = () => {
     return (
-        <a href="https://google.com" >
+        <a >
             <button className="Button">
                 <p>Proceed to Payment</p>
             </button>

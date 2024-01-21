@@ -14,7 +14,7 @@ const MusicPlan = () => {
                 <p className='Price'>$59.99/year</p>
             </div>
 
-            <a className='Hyperlink' href='https://google.com'>Change</a>
+            <a className='Hyperlink'>Change</a>
 
         </div>
     )

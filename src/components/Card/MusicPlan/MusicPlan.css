@@ -32,6 +32,11 @@
 .MusicPlan > .Hyperlink {
     font-weight: 700;
     margin-left: 24px;
+    
+}
+
+.MusicPlan > .Hyperlink:hover {
+    cursor: pointer;
 }
 
 
